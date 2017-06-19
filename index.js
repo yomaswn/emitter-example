@@ -5,8 +5,8 @@ var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
 
-eventEmitter.on('clicked', () => {
-  console.log('something is clicked');
+eventEmitter.on('clicked', (buttonName) => {
+  console.log(`${buttonName} is clicked`);
 })
 
-eventEmitter.emit('clicked');
+eventEmitter.emit('clicked','button1');
