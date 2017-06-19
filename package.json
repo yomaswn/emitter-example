@@ -1,0 +1,24 @@
+{
+  "name": "emitter-example",
+  "version": "1.0.0",
+  "description": "event emitter example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomaswn/emitter-example.git"
+  },
+  "keywords": [
+    "emit",
+    "evenemitter",
+    "beginner"
+  ],
+  "author": "yomaswn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yomaswn/emitter-example/issues"
+  },
+  "homepage": "https://github.com/yomaswn/emitter-example#readme"
+}
